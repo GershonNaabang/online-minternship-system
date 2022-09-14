@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+
+/* html {
+    overflow-y: scroll;
+} */
+
+:root {
+    --color-white: #fff;
+    --color-base: #22252B;
+    --color-active: #313740;
+    --color-background: #F4F7F6;
+    --color-red: #F44336;
+    --color-pink: #E91E63;
+    --color-purple: #9C27B0;
+    --color-deep-purple: #673AB7;
+    --color-indigo: #3F51B5;
+    --color-blue: #2196F3;
+    --color-light-blue: #03A9F4;
+    --color-cyan: #00BCD4;
+    --color-teal: #009688;
+    --color-green: #4CAF50;
+    --color-light-green: #8BC34A;
+    --color-lime: #CDDC39;
+    --color-amber: #FFC107;
+    --color-orange: #FF9800;
+    --color-deep-orange: #FF5722;
+    --color-brown: #795548;
+    --color-grey: #9E9E9E;
+    --color-blue-grey: #607D8B;
+}
+
+body {
+    list-style: none;
+    text-decoration: none;
+    background: var(--color-base);
+}
+
+.container {
+    background: var(--color-background);
+    border-radius: 10px;
+    margin: 8rem 0rem 5rem 0rem;
+}
+
+.container .signin {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10rem;
+}
+
+.container .signin .right {
+    text-align: center;
+    justify-content: center;
+}

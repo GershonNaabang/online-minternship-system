@@ -1,0 +1,44 @@
+main .reel .cards .card-sub {
+    background: var(--color-white);
+    height: 12rem;
+    width: 14.7rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.reel .cards .card-sub:hover {
+    transition: 0.2s all ease;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.cards .card-sub span:nth-child(1) {
+    font-size: 3rem;
+}
+
+.cards .card-sub .card-info a {
+    font-size: 12px;
+    padding: .5rem;
+}
+
+.cards .card-sub .card-info {
+    margin-top: 1.3rem;
+    color: #686868;
+}
+
+.cards .card-sub .card-info p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.cards .card-sub .card-info h3 {
+    color: #505a68;
+    font-weight: 400;
+}
+
+.cards .card-sub span img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 30px;
+}

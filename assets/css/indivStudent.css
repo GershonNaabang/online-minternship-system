@@ -1,0 +1,14 @@
+.back-arrow {
+    padding-top: 1.8rem;
+}
+
+.back-arrow div a i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.back-arrow div a i:hover {
+    background: #1669ad;
+    font-size: 2.1rem;
+    transition: ease all .2s;
+}

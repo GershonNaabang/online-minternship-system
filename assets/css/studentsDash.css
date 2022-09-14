@@ -1,0 +1,196 @@
+:root {
+    --color-background: #F4F7F6;
+    --color-white: #fff;
+    --color-black: #22252B;
+    --color-grey: #3b3b3b;
+    --color-blue: #2196F3;
+    --color-green: #23a573;
+    --box-shadow1: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    --box-shadow2: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    --box-shadow3: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    --box-shadow4: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    ;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: var(--color-background);
+    text-decoration: none;
+}
+
+.container nav {
+    background: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    box-shadow: var(--box-shadow2);
+}
+
+.container nav ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 1.5rem;
+}
+
+nav ul .user {
+    text-align: right;
+    padding-right: 3rem;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+nav ul .user a {
+    color: var(--color-black);
+}
+
+nav ul .brand-name {
+    text-align: left;
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    padding-top: .8rem;
+}
+
+nav ul .brand-name a img {
+    height: 2.5rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+main .sidebar {
+    background: var(--color-white);
+    margin-top: 1.5px;
+    width: 18rem;
+    height: 100vh;
+    box-shadow: var(--box-shadow2);
+}
+
+.sidebar ul li {
+    padding: 1rem 1rem 1rem 2rem;
+    font-size: 16px;
+}
+
+.sidebar ul .items:hover {
+    background: #dcdee0;
+    transition: ease all .3s;
+    cursor: pointer;
+}
+
+.sidebar ul li a {
+    color: var(--color-blue);
+}
+
+.sidebar ul li a span {
+    padding-left: 10px;
+    color: var(--color-grey);
+}
+
+.logout {
+    background: var(--color-blue);
+    text-align: center;
+    color: var(--color-white);
+}
+
+.active {
+    padding: 1rem 1rem 1rem 2rem;
+    font-size: 16px;
+    background: var(--color-background);
+    box-shadow: none;
+}
+
+main .main {
+    margin-left: -32rem;
+    /* padding: 0; */
+}
+
+
+/* main */
+
+.main .info-pane {
+    margin-left: 10px;
+    background: var(--color-white);
+    height: 5rem;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow2);
+}
+
+.main .info-pane .left {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.main .info-pane .left .icon {
+    font-size: 4rem;
+    color: var(--color-blue);
+}
+
+.main .info-pane .left .info {
+    padding-left: 1rem;
+}
+
+.main .info-pane .left .info h3 {
+    font-size: 18px;
+}
+
+.main .info-pane .left .info p {
+    color: var(--color-grey);
+}
+
+.main .info-pane .right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2rem;
+}
+
+.main .info-pane .right button {
+    width: 10rem;
+    height: 2.5rem;
+    background: var(--color-white);
+    border: #dadada solid 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.main .info-pane .right button:hover {
+    box-shadow: 0px 0px 1px var(--color-blue);
+    border: var(--color-blue) 1px solid;
+    transition: ease all .3s;
+}
+
+.main .info-pane .right button span {
+    color: var(--color-blue);
+}
+
+.main .cards {
+    margin-left: 10px;
+}
+
+.main .cards .single-card {
+    display: none;
+    background: var(--color-white);
+    height: 16rem;
+    width: 16rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}

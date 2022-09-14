@@ -1,0 +1,52 @@
+:root{
+    --background-color: #DBDBDB;
+    --color-white: #fff;
+    --color-blue: #2456C8;
+    --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+*{
+    font-family: "Poppins","Astral Sisters","Good Times";
+}
+.header_area{
+    background: var(--background-color);
+}
+body{
+    background: var(--background-color);
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    /*gap: 1rem;*/
+}
+main section{
+    /*outline: green 2px solid;*/
+    background: var(--color-white);
+    height: 100vh;
+    box-shadow: var(--box-shadow);
+    margin-top: 5rem;
+}
+main .left{
+    margin-left: 1rem;
+    width: 20rem;
+}
+.left .piture-col{
+    /*outline: green 3px solid;*/
+}
+.left .piture-col img{
+    width: 100%;
+}
+.left .piture-col h2{
+    text-align: center;
+    background: var(--color-blue);
+    color: var(--color-white);
+    font-size: 20px;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+main .right{
+    margin-left: -28.5rem;
+    margin-right: 1rem;
+}

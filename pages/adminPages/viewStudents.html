@@ -1,0 +1,390 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ::Sledge ::Admin</title>
+
+    <!-- material Design css file link -->
+    <link rel="stylesheet" href="../../assets/css/material-design-iconic-font.css">
+    <!-- material Design css file link -->
+
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="../../assets/plugins/bootstrap/css/bootstrap.css">
+    <!-- bootstrap css cdn -->
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="../../assets/css/index.css">
+    <link rel="stylesheet" href="../../assets/css/viewStudents.css">
+    <!-- custom css -->
+
+    <!-- jQuerry cdn -->
+    <script src="../../assets/plugins/jquery/jquery-v3.3.1.min.js"></script>
+    <!-- jQuerry cdn -->
+
+</head>
+
+<body>
+    <aside>
+        <!-- sidebar black -->
+        <div class="sidebar-small ">
+            <ul class="menu-list ">
+                <li>
+                    <a href="# " class="logo "></a>
+                </li>
+                <li><a href=" "><i class="zmdi zmdi-search "></i></a></li>
+                <li><a href=" "><i class="zmdi zmdi-swap "></i></a></li>
+                <li><a href=" "><i class="zmdi zmdi-apps "></i></a></li>
+                <li><a href=" "><i class="zmdi zmdi-notifications"></i></a></li>
+                <li><a href=" "><i class="zmdi zmdi-flag "></i></a></li>
+                <li><a href=" "><i class="zmdi zmdi-calendar "></i></a></li>
+                <li><a href=" "><i class="zmdi zmdi-email "></i></a></li>
+                <li><a href=" "><i class="zmdi zmdi-comment "></i></a></li>
+                <li id="fllscrnLi"><a href="#" id="fullScrnBtn1"><i class="zmdi zmdi-fullscreen "></i></a></li>
+                <li id="fllscrnLi2" style="display: none;"><a href="#" id="fullScrnBtn2"><i class="zmdi zmdi-fullscreen-alt "></i></a></li>
+                <li>
+                    <a href=" "><i class="zmdi zmdi-settings zmdi-hc-spin "></i></a>
+                    <a href=" "><i class="zmdi zmdi-power "></i></a>
+                </li>
+            </ul>
+        </div>
+        <!-- end of sidemenu black -->
+
+        <!-- sub siddemenu -->
+        <div class="sub-menu ">
+            <ul class="list ">
+                <li id="person">
+                    <div class="user-info ">
+                        <div class="image ">
+                            <a href="# "><img src="../../assets/images/default pic.jpg " alt="User "></a>
+                        </div>
+                        <div class="detail ">
+                            <h6>Michael</h6>
+                            <p class="m-b-0 ">info@example.com</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="header">--Main</li>
+                <li class="nav-item "> <a href="#"><i class="zmdi zmdi-home"></i><span>Dashboard</span></a></li>
+                <li class="nav-item ">
+                    <a href="#" class="toggleMenuBtn"><i class="zmdi zmdi-swap-alt"></i><span>Student</span> <span class="badge badge-primary float-right">2</span></a>
+                    <ul class="ml-item">
+                        <li class="sub-item"><a href="#">Add Student</a></li>
+                        <li class="sub-item active"><a href="#">View Student</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item "><a href="#" class="toggleMenuBtn"><i class="zmdi zmdi-label"></i><span>Lecturers</span></a></li>
+                <li class="nav-item "><a href="#" class="toggleMenuBtn"><i class="zmdi zmdi-badge-check"></i><span>Organisation</span></a></li>
+
+                <!-- --formas carts and tables -->
+                <li class="header">--Menu</li>
+                <li class="nav-item ">
+                    <a href="#" class="toggleMenuBtn"><i class="zmdi zmdi-apps"></i><span>App</span> <span class="badge badge-danger float-right">7</span></a>
+                    <ul class="ml-item">
+                        <li class="sub-item"><a href="#">Inbox</a></li>
+                        <li class="sub-item"><a href="#">Chat</a></li>
+                        <li class="sub-item"><a href="#">Calendar</a></li>
+                        <li class="sub-item"><a href="#">File Manager</a></li>
+                        <li class="sub-item"><a href="#">Contact list</a></li>
+                        <li class="sub-item"><a href="#">Blog</a></li>
+                        <li class="sub-item"><a href="#">Support Ticket</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="toggleMenuBtn"><i class="zmdi zmdi-swap-alt"></i><span>UI Elements</span> <span class="badge badge-info float-right">7</span></a>
+                    <ul class="ml-item">
+                        <li class="sub-item"><a href="#">Inbox</a></li>
+                        <li class="sub-item"><a href="#">Chat</a></li>
+                        <li class="sub-item"><a href="#">Calendar</a></li>
+                        <li class="sub-item"><a href="#">File Manager</a></li>
+                        <li class="sub-item"><a href="#">Contact list</a></li>
+                        <li class="sub-item"><a href="#">Blog</a></li>
+                        <li class="sub-item"><a href="#">Support Ticket</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="toggleMenuBtn"><i class="zmdi zmdi-swap-alt"></i><span>UI Elements</span> <span class="badge badge-warning float-right">7</span></a>
+                    <ul class="ml-item">
+                        <li class="sub-item"><a href="#">Inbox</a></li>
+                        <li class="sub-item"><a href="#">Chat</a></li>
+                        <li class="sub-item"><a href="#">Calendar</a></li>
+                        <li class="sub-item"><a href="#">File Manager</a></li>
+                        <li class="sub-item"><a href="#">Contact list</a></li>
+                        <li class="sub-item"><a href="#">Blog</a></li>
+                        <li class="sub-item"><a href="#">Support Ticket</a></li>
+                    </ul>
+                </li>
+                <!-- --formas carts and tables -->
+
+
+                <!-- extra components -->
+                <li class="header">--Menu</li>
+                <li class="nav-item ">
+                    <a href="#" class="toggleMenuBtn"><i class="zmdi zmdi-apps"></i><span>App</span> <span class="badge badge-success float-right">7</span></a>
+                    <ul class="ml-item">
+                        <li class="sub-item"><a href="#">Inbox</a></li>
+                        <li class="sub-item"><a href="#">Chat</a></li>
+                        <li class="sub-item"><a href="#">Calendar</a></li>
+                        <li class="sub-item"><a href="#">File Manager</a></li>
+                        <li class="sub-item"><a href="#">Contact list</a></li>
+                        <li class="sub-item"><a href="#">Blog</a></li>
+                        <li class="sub-item"><a href="#">Support Ticket</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="toggleMenuBtn"><i class="zmdi zmdi-swap-alt"></i><span>UI Elements</span> <span class="badge badge-secondary float-right">7</span></a>
+                    <ul class="ml-item">
+                        <li class="sub-item"><a href="#">Inbox</a></li>
+                        <li class="sub-item"><a href="#">Chat</a></li>
+                        <li class="sub-item"><a href="#">Calendar</a></li>
+                        <li class="sub-item"><a href="#">File Manager</a></li>
+                        <li class="sub-item"><a href="#">Contact list</a></li>
+                        <li class="sub-item"><a href="#">Blog</a></li>
+                        <li class="sub-item"><a href="#">Support Ticket</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ">
+                    <a href="#" class="toggleMenuBtn"><i class="zmdi zmdi-swap-alt"></i><span>UI Elements</span> <span class="badge badge-primary float-right">7</span></a>
+                    <ul class="ml-item">
+                        <li class="sub-item"><a href="#">Inbox</a></li>
+                        <li class="sub-item"><a href="#">Chat</a></li>
+                        <li class="sub-item"><a href="#">Calendar</a></li>
+                        <li class="sub-item"><a href="#">File Manager</a></li>
+                        <li class="sub-item"><a href="#">Contact list</a></li>
+                        <li class="sub-item"><a href="#">Blog</a></li>
+                        <li class="sub-item"><a href="#">Support Ticket</a></li>
+                    </ul>
+                </li>
+                <!-- extra components -->
+
+
+            </ul>
+        </div>
+        <!-- end of sub side menu -->
+
+    </aside>
+
+    <!-- main page -->
+    <main>
+        <!-- top section -->
+        <div class="top">
+            <div class="pageNav">
+                <p>Dashboard</p>
+                <div><i class="zmdi zmdi-home"></i> / <span>Dashboard</span></div>
+            </div>
+        </div>
+
+        <!-- reel section -->
+        <div class="table-section">
+
+            <div class="search-rec">
+                <div>
+                    <select class="form-select form-select-sm">
+                        <option>Index Number</option>
+                        <option>First Name</option>
+                        <option>last Name</option>
+                        <option>Programme</option>
+                    </select>
+                </div>
+                <!-- search -->
+                <div><input type="text" class="form-control" placeholder="search....."></div>
+                <button type="button" class="btn ">Search</button>
+
+            </div>
+            <table class="table table-striped ">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Index Number</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Programme</th>
+                        <th>Score</th>
+                        <th>Grade Point</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                    <tr>
+                        <th>UEB3204318</th>
+                        <th>Gershon</th>
+                        <th>Bettoh</th>
+                        <th>Information Technology</th>
+                        <th>85</th>
+                        <th>3.6</th>
+                        <th><a href="#">View Profile</a></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </main>
+    <!-- main page -->
+
+
+
+    <!-- bootstrap js cdn -->
+    <script src="../../assets/plugins/bootstrap/js/bootstrap.js "></script>
+    <!-- bootstrap js cdn -->
+
+
+    <!-- custom custom -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            //JQuerry for toggle menu
+            $('.toggleMenuBtn').click(function() {
+                $(this).next('.ml-item').slideToggle();
+            });
+        });
+    </script>
+
+    <script src="../../assets/js/index.js"></script>
+    <!-- custom custom -->
+</body>
+
+</html>

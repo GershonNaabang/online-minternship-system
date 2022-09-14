@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="../../assets/css/login.css">
+  <link rel="stylesheet" href="../../assets/css/material-design-iconic-font.css">
+</head>
+<body>
+<div class="container" id="container">
+  <div class="form-container sign-up-container">
+    <form action="#">
+      <h1>Create Account</h1>
+      <div class="social-container">
+        <a href="#" class="social"><i class="zmdi zmdi-facebook"></i></a>
+        <a href="#" class="social"><i class="zmdi zmdi-google-glass"></i></a>
+        <a href="#" class="social"><i class="zmdi zmdi-linkedin"></i></a>
+      </div>
+      <span>or use your email for registration</span>
+      <input type="text" placeholder="Name" />
+      <input type="email" placeholder="Username/Index Number" />
+      <input type="password" placeholder="Password" />
+      <button>Sign Up</button>
+    </form>
+  </div>
+  <div class="form-container sign-in-container">
+    <form action="#">
+      <h1>Sign in</h1>
+      <div class="social-container">
+        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <span>or use your account</span>
+      <input type="email" placeholder="Email / Username / Index Number" required>
+      <input type="password" placeholder="Password" required>
+      <a href="#">Forgot your password?</a>
+      <button>Sign In</button>
+      <a href="signup.html">Sign up Instead</a>
+    </form>
+  </div>
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-panel overlay-left">
+        <h1>Welcome Back!</h1>
+        <p>To keep connected with us please login with your personal info</p>
+        <button class="ghost" id="signIn">Sign In</button>
+      </div>
+      <div class="overlay-panel overlay-right">
+        <h1>Hello, Friend!</h1>
+        <p>Enter your personal details and start journey with us</p>
+        <p>Please select the login type</p>
+<!--        <button class="ghost" id="signUp" disabled>Select THe Login Type</button>-->
+        <div class="logintype">
+          <input type="checkbox" name="student">
+          <span>Student</span>
+          <input type="checkbox" name="organization">
+          <span>Organization</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <i class="zmdi zmdi-facebook"></i>
+  <i class="zmdi zmdi-instagram"></i>
+  <i class="zmdi zmdi-twitter"></i>
+  <i class="zmdi zmdi-whatsapp"></i>
+</footer>
+
+<!--javascrip linking of the other responsiveness-->
+<script src="../../assets/js/login.js"></script>
+</body>
+</html>
